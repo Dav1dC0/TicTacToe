@@ -17,7 +17,10 @@ class TicTacToe:
             name = input(f"Enter name for Player {i + 1}: ")
             symbol = self.symbols[i]
             self.players.append((name, symbol))
+#draw board
 
+    #check win
+    #check draw
     def play(self):
         self.initialize_players()
         while not self.winner:
